@@ -44,7 +44,7 @@
             log(commonColor, arguments);
             Function.prototype.apply.call(clog, console, arguments);
         }
-    }
+    };
     (document.readystate === 'interactive' || document.readystate === 'complete') ?
         bindFunc() :
         document.addEventListener('DOMContentLoaded', bindFunc);
