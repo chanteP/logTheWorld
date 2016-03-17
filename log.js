@@ -4,7 +4,7 @@
         console.log = function(){};
     }
     window.addEventListener('error', function(e, filename, lineNo){
-        console.log(e, 'filename:' + filename, 'lineNo:' + lineNo);
+        console.log(e, e.message, 'filename:' + filename, 'lineNo:' + lineNo);
     });
     if(!debug){return;}
     var clog = console.log;
