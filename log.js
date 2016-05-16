@@ -27,7 +27,7 @@
 
     var errFunc = function(e, filename, lineNo, colno, errObj){
         if(!hasInit){
-            alert(e.message || e + 'from:' + arguments.callee.caller.toString());
+            alert(e.message || e + 'from:' + (arguments.callee.caller && arguments.callee.caller.toString()));
         }
         logError(e, filename, lineNo, colno, errObj, arguments.callee.caller);
     }
