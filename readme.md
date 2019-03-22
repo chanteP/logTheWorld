@@ -11,5 +11,5 @@
 当然也可以直接引cdn上面的文件
 
 ```
-<script src="https://rawgit.com/chanteP/logTheWorld/master/log.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/chanteP/logTheWorld/log.js"></script>
 ```
